@@ -1,3 +1,14 @@
 # Dissertation Artefact
 
 This is a repository for the coding artefact related to Richard Ogujawa's dissertation relating to comparing and contrasting GANs vs simple data augmentation techniques to investigate the impact of either approach.
+
+A CNN model was trained on to accurately classify handwritten digits. The model was trained on MNIST data.
+
+## _Evaluation_:
+
+Three types of training datasets were used to train different models using the same model architecture.
+
+- _First type_: The Then the performance was evaluated by measuring the training accuracy (categorical loss) and testing accuracy (validation categorical loss).
+- _Second type_: Then the training data was augmented using the images transformations cropped to only show the subject of interest (the digits).
+- _Third type_: The _training data was augmented using DCGAN_ generated handwritten images. The DCAN generated images were the best ten generated images from each label class (0, 1, 2, 3..., etc.) These can be found in the directory labelled 'dcgan_generated_images'.
+- _Fourth type_: Similar to type four, but this time using _WGAN-GP_.
