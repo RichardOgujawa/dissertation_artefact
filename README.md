@@ -37,7 +37,7 @@ _Third type_: The _training data was augmented using DCGAN_ generated handwritte
 - _Fourth type_: Similar to type four, but this time using _VAE_.
 
 **Results from CNN Model 8 trained on VAE Augmented Dataset**
-![Results from CNN Model 8 trained on VAE Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_aug.png?raw=true)
+![Results from CNN Model 8 trained on VAE Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_vae.png?raw=true)
 
 **Results from CNN Model 10 trained on VAE Augmented Dataset**
 ![Results from CNN Model 10 trained on VAE Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history10_aug.png?raw=true)
