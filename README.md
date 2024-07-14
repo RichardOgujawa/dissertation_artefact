@@ -20,8 +20,8 @@ The original performance was evaluated by measuring the training accuracy (categ
 
 - _Second type_: Then the training data was augmented using the images transformations cropped to only show the subject of interest (the digits).
 
-**Results from CNN Model 10 trained on Data Augmented**
-![Results from CNN Model 8 trained on Data Augmented Model](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_aug.png?raw=true)
+**Results from CNN Model 8 trained on Data Augmented**
+![Results from CNN Model 8 trained on Data Augmented](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_aug.png?raw=true)
 
 **Results from CNN Model 10 trained on Data Augmented**
 ![Results from CNN Model 10 trained on Data Augmented](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history10_aug.png?raw=true)
@@ -29,10 +29,10 @@ The original performance was evaluated by measuring the training accuracy (categ
 _Third type_: The _training data was augmented using DCGAN_ generated handwritten images. The DCAN generated images were the best ten generated images from each label class (0, 1, 2, 3..., etc.) These can be found in the directory labelled 'dcgan_generated_images'.
 
 **Results from CNN Model 8 trained on DCGAN Augmented Dataset**
-![Results from CNN Model 8 trained on DCGAN Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_aug.png?raw=true)
+![Results from CNN Model 8 trained on DCGAN Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_dcgan.png?raw=true)
 
 **Results from CNN Model 10 trained on DCGAN Augmented Dataset**
-![Results from CNN Model 10 trained on DCGAN Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history10_aug.png?raw=true)
+![Results from CNN Model 10 trained on DCGAN Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history10_dcgan.png?raw=true)
 
 - _Fourth type_: Similar to type four, but this time using _VAE_.
 
@@ -40,4 +40,4 @@ _Third type_: The _training data was augmented using DCGAN_ generated handwritte
 ![Results from CNN Model 8 trained on VAE Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history8_vae.png?raw=true)
 
 **Results from CNN Model 10 trained on VAE Augmented Dataset**
-![Results from CNN Model 10 trained on VAE Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history10_aug.png?raw=true)
+![Results from CNN Model 10 trained on VAE Augmented Dataset](https://github.com/RichardOgujawa/dissertation_artefact/blob/main/images/history10_vae.png?raw=true)
